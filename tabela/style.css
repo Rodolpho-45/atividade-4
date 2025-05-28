@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: violet;
+}
+
+th {
+    border-style: solid;
+    border-color: red;
+}
+
+
+
+table {
+    border-style: solid;
+    border-color: blue;
+}
+
+tr:hover {
+    background-color: royalblue;
+    color: firebrick;
+}
