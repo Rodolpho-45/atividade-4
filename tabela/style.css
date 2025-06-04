@@ -12,6 +12,8 @@ body {
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+    padding: 2rem;
+    color: black;
 }
 
 @keyframes gradient {
@@ -74,26 +76,36 @@ body {
     }
 }
 
+thead {
+    background-color: firebrick;
+    color: rgb(221, 221, 77);
+}
 
 tr:nth-child(even) {
     background-color: violet;
 }
 
-th {
+th, td {
     border-style: solid;
     border-color: rgb(0, 0, 0);
+    padding: 1rem;
 }
 
 caption {
-    font-size: 30px;
+    font-size: 3rem;
+    font-weight: bold;
     margin-top: 15px;
+    -webkit-text-stroke: white 1px;
     margin-bottom: 40px;
 }
 
 table {
+    width: 100%;
+    border-collapse: collapse;
     background-color: skyblue;
     border-style: solid;
-    border-color: blue;
+    border: 3px solid blue;
+    overflow: hidden;
 }
 
 tr:hover {
@@ -107,6 +119,7 @@ iframe {
     margin-top: 75px;
     border-radius: 7%; 
 }
+
 
 footer {
     text-align: center;
